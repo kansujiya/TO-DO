@@ -8,22 +8,63 @@
 
 /* Begin PBXBuildFile section */
 		500CCDF71D6CC84B004118DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CCDF61D6CC84B004118DB /* AppDelegate.swift */; };
-		500CCDF91D6CC84B004118DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CCDF81D6CC84B004118DB /* ViewController.swift */; };
 		500CCDFC1D6CC84B004118DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500CCDFA1D6CC84B004118DB /* Main.storyboard */; };
 		500CCDFF1D6CC84B004118DB /* TO_DO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 500CCDFD1D6CC84B004118DB /* TO_DO.xcdatamodeld */; };
 		500CCE011D6CC84B004118DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500CCE001D6CC84B004118DB /* Assets.xcassets */; };
 		500CCE041D6CC84B004118DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500CCE021D6CC84B004118DB /* LaunchScreen.storyboard */; };
+		500CCE171D6CD521004118DB /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CCE151D6CD521004118DB /* Task+CoreDataProperties.swift */; };
+		500CCE181D6CD521004118DB /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CCE161D6CD521004118DB /* Task.swift */; };
+		500CCE1B1D6CD56A004118DB /* CoreDataEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CCE1A1D6CD56A004118DB /* CoreDataEngine.swift */; };
+		500CCE201D6CD74A004118DB /* DoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CCE1E1D6CD74A004118DB /* DoneVC.swift */; };
+		500CCE211D6CD74A004118DB /* PendingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CCE1F1D6CD74A004118DB /* PendingVC.swift */; };
+		500CCE2F1D6CDC89004118DB /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CCE2E1D6CDC89004118DB /* GlobalConstants.swift */; };
+		500CCE311D6CDF2C004118DB /* DoneVC+TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CCE301D6CDF2C004118DB /* DoneVC+TableViewDataSource.swift */; };
+		500CCE341D6CE25A004118DB /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CCE331D6CE25A004118DB /* Enum.swift */; };
+		500CCE371D6CE4BE004118DB /* Reachabilty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CCE361D6CE4BE004118DB /* Reachabilty.swift */; };
+		500CCE3C1D6CEFDE004118DB /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CCE3B1D6CEFDE004118DB /* Service.swift */; };
+		50F45CFD1D6F473200F00645 /* PendingVC+TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F45CFC1D6F473200F00645 /* PendingVC+TableViewDataSource.swift */; };
+		50F45CFF1D6F50B200F00645 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F45CFE1D6F50B200F00645 /* AddToDoViewController.swift */; };
+		50FD73E51D6E0E9E00A6F44C /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD73E41D6E0E9E00A6F44C /* TaskCell.swift */; };
+		7FCD111AE6CB55B696E509FE /* Pods_TO_DO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B71324A3EDE779CEEBE2B3 /* Pods_TO_DO.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		500CCE3A1D6CE9B1004118DB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2E45CA8294FD4E5C01D0D1BE /* Pods-TO-DO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TO-DO.release.xcconfig"; path = "Pods/Target Support Files/Pods-TO-DO/Pods-TO-DO.release.xcconfig"; sourceTree = "<group>"; };
 		500CCDF31D6CC84B004118DB /* TO-DO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TO-DO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		500CCDF61D6CC84B004118DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		500CCDF81D6CC84B004118DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		500CCDFB1D6CC84B004118DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		500CCDFE1D6CC84B004118DB /* TO_DO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TO_DO.xcdatamodel; sourceTree = "<group>"; };
 		500CCE001D6CC84B004118DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		500CCE031D6CC84B004118DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		500CCE051D6CC84B004118DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		500CCE151D6CD521004118DB /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		500CCE161D6CD521004118DB /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		500CCE1A1D6CD56A004118DB /* CoreDataEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataEngine.swift; sourceTree = "<group>"; };
+		500CCE1E1D6CD74A004118DB /* DoneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoneVC.swift; sourceTree = "<group>"; };
+		500CCE1F1D6CD74A004118DB /* PendingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingVC.swift; sourceTree = "<group>"; };
+		500CCE2E1D6CDC89004118DB /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		500CCE301D6CDF2C004118DB /* DoneVC+TableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DoneVC+TableViewDataSource.swift"; sourceTree = "<group>"; };
+		500CCE331D6CE25A004118DB /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		500CCE361D6CE4BE004118DB /* Reachabilty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachabilty.swift; sourceTree = "<group>"; };
+		500CCE3B1D6CEFDE004118DB /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		50F45CFC1D6F473200F00645 /* PendingVC+TableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PendingVC+TableViewDataSource.swift"; sourceTree = "<group>"; };
+		50F45CFE1D6F50B200F00645 /* AddToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		50FD73E41D6E0E9E00A6F44C /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		7758AFA571B62A82D665FD0E /* Pods-TO-DO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TO-DO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TO-DO/Pods-TO-DO.debug.xcconfig"; sourceTree = "<group>"; };
+		B8B71324A3EDE779CEEBE2B3 /* Pods_TO_DO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TO_DO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FCD111AE6CB55B696E509FE /* Pods_TO_DO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +84,8 @@
 			children = (
 				500CCDF51D6CC84B004118DB /* TO-DO */,
 				500CCDF41D6CC84B004118DB /* Products */,
+				DC041BDF2C046E0D5DE3FE18 /* Pods */,
+				DAE1A4AAD7B277C4ECF176FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +100,15 @@
 		500CCDF51D6CC84B004118DB /* TO-DO */ = {
 			isa = PBXGroup;
 			children = (
+				500CCE351D6CE4BE004118DB /* Network */,
+				500CCE321D6CE25A004118DB /* Enum */,
+				500CCE2D1D6CDC89004118DB /* global constants */,
+				500CCE291D6CDC22004118DB /* Service Manager */,
+				500CCE191D6CD56A004118DB /* core data Engine */,
+				500CCE111D6CCABC004118DB /* Controller */,
+				500CCE121D6CCABC004118DB /* Model */,
+				500CCE131D6CCABC004118DB /* View */,
 				500CCDF61D6CC84B004118DB /* AppDelegate.swift */,
-				500CCDF81D6CC84B004118DB /* ViewController.swift */,
 				500CCDFA1D6CC84B004118DB /* Main.storyboard */,
 				500CCE001D6CC84B004118DB /* Assets.xcassets */,
 				500CCE021D6CC84B004118DB /* LaunchScreen.storyboard */,
@@ -67,6 +118,108 @@
 			path = "TO-DO";
 			sourceTree = "<group>";
 		};
+		500CCE111D6CCABC004118DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				50F45CFE1D6F50B200F00645 /* AddToDoViewController.swift */,
+				500CCE1E1D6CD74A004118DB /* DoneVC.swift */,
+				500CCE301D6CDF2C004118DB /* DoneVC+TableViewDataSource.swift */,
+				500CCE1F1D6CD74A004118DB /* PendingVC.swift */,
+				50F45CFC1D6F473200F00645 /* PendingVC+TableViewDataSource.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		500CCE121D6CCABC004118DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				500CCE141D6CD4EC004118DB /* task */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		500CCE131D6CCABC004118DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				50FD73E31D6E0E6A00A6F44C /* TaskCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		500CCE141D6CD4EC004118DB /* task */ = {
+			isa = PBXGroup;
+			children = (
+				500CCE151D6CD521004118DB /* Task+CoreDataProperties.swift */,
+				500CCE161D6CD521004118DB /* Task.swift */,
+			);
+			path = task;
+			sourceTree = "<group>";
+		};
+		500CCE191D6CD56A004118DB /* core data Engine */ = {
+			isa = PBXGroup;
+			children = (
+				500CCE1A1D6CD56A004118DB /* CoreDataEngine.swift */,
+			);
+			path = "core data Engine";
+			sourceTree = "<group>";
+		};
+		500CCE291D6CDC22004118DB /* Service Manager */ = {
+			isa = PBXGroup;
+			children = (
+				500CCE3B1D6CEFDE004118DB /* Service.swift */,
+			);
+			path = "Service Manager";
+			sourceTree = "<group>";
+		};
+		500CCE2D1D6CDC89004118DB /* global constants */ = {
+			isa = PBXGroup;
+			children = (
+				500CCE2E1D6CDC89004118DB /* GlobalConstants.swift */,
+			);
+			path = "global constants";
+			sourceTree = "<group>";
+		};
+		500CCE321D6CE25A004118DB /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				500CCE331D6CE25A004118DB /* Enum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		500CCE351D6CE4BE004118DB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				500CCE361D6CE4BE004118DB /* Reachabilty.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		50FD73E31D6E0E6A00A6F44C /* TaskCell */ = {
+			isa = PBXGroup;
+			children = (
+				50FD73E41D6E0E9E00A6F44C /* TaskCell.swift */,
+			);
+			path = TaskCell;
+			sourceTree = "<group>";
+		};
+		DAE1A4AAD7B277C4ECF176FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8B71324A3EDE779CEEBE2B3 /* Pods_TO_DO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC041BDF2C046E0D5DE3FE18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7758AFA571B62A82D665FD0E /* Pods-TO-DO.debug.xcconfig */,
+				2E45CA8294FD4E5C01D0D1BE /* Pods-TO-DO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +227,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 500CCE081D6CC84B004118DB /* Build configuration list for PBXNativeTarget "TO-DO" */;
 			buildPhases = (
+				DF1D6D96BD71ACBFF1BB943D /* Check Pods Manifest.lock */,
 				500CCDEF1D6CC84B004118DB /* Sources */,
 				500CCDF01D6CC84B004118DB /* Frameworks */,
 				500CCDF11D6CC84B004118DB /* Resources */,
+				500CCE3A1D6CE9B1004118DB /* Embed Frameworks */,
+				34EA22F39EA0D3140484A579 /* Embed Pods Frameworks */,
+				A065E04B1E59D791DAA37671 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,13 +290,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34EA22F39EA0D3140484A579 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TO-DO/Pods-TO-DO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A065E04B1E59D791DAA37671 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TO-DO/Pods-TO-DO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF1D6D96BD71ACBFF1BB943D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		500CCDEF1D6CC84B004118DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				500CCDF91D6CC84B004118DB /* ViewController.swift in Sources */,
+				500CCE371D6CE4BE004118DB /* Reachabilty.swift in Sources */,
+				500CCE3C1D6CEFDE004118DB /* Service.swift in Sources */,
+				500CCE2F1D6CDC89004118DB /* GlobalConstants.swift in Sources */,
+				500CCE201D6CD74A004118DB /* DoneVC.swift in Sources */,
+				500CCE211D6CD74A004118DB /* PendingVC.swift in Sources */,
+				500CCE341D6CE25A004118DB /* Enum.swift in Sources */,
 				500CCDFF1D6CC84B004118DB /* TO_DO.xcdatamodeld in Sources */,
+				50F45CFF1D6F50B200F00645 /* AddToDoViewController.swift in Sources */,
+				500CCE1B1D6CD56A004118DB /* CoreDataEngine.swift in Sources */,
+				500CCE181D6CD521004118DB /* Task.swift in Sources */,
+				500CCE171D6CD521004118DB /* Task+CoreDataProperties.swift in Sources */,
+				500CCE311D6CDF2C004118DB /* DoneVC+TableViewDataSource.swift in Sources */,
+				50F45CFD1D6F473200F00645 /* PendingVC+TableViewDataSource.swift in Sources */,
+				50FD73E51D6E0E9E00A6F44C /* TaskCell.swift in Sources */,
 				500CCDF71D6CC84B004118DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,8 +468,14 @@
 		};
 		500CCE091D6CC84B004118DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7758AFA571B62A82D665FD0E /* Pods-TO-DO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TO-DO",
+					"$(PROJECT_DIR)/TO-DO/Framework",
+				);
 				INFOPLIST_FILE = "TO-DO/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.coredata.TO-DO";
@@ -262,8 +485,14 @@
 		};
 		500CCE0A1D6CC84B004118DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E45CA8294FD4E5C01D0D1BE /* Pods-TO-DO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TO-DO",
+					"$(PROJECT_DIR)/TO-DO/Framework",
+				);
 				INFOPLIST_FILE = "TO-DO/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.coredata.TO-DO";
@@ -290,6 +519,7 @@
 				500CCE0A1D6CC84B004118DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
